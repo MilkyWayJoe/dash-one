@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B414FE7F-C71C-487F-B470-0F937824DDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{CCFB9B2F-2A82-4D79-A39E-B52C6AD2F859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F791B98E-DBBC-4C46-AEC5-B5D722A088DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash.DomainModel", "Dash.DomainModel\Dash.DomainModel.csproj", "{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash.Front", "Dash.Front\Dash.Front.csproj", "{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash.Front.Tests", "Dash.Front.Tests\Dash.Front.Tests.csproj", "{4D8F2193-E65B-44C2-9457-B9D3D82DE035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{8250CEF2-1D6B-404A-8641-5BAFDE0F3527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash.Controllers", "Dash.Controllers\Dash.Controllers.csproj", "{334E54EF-42F1-4D94-B8A0-C8EDA541C69D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8F2193-E65B-44C2-9457-B9D3D82DE035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8F2193-E65B-44C2-9457-B9D3D82DE035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8F2193-E65B-44C2-9457-B9D3D82DE035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8F2193-E65B-44C2-9457-B9D3D82DE035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334E54EF-42F1-4D94-B8A0-C8EDA541C69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334E54EF-42F1-4D94-B8A0-C8EDA541C69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334E54EF-42F1-4D94-B8A0-C8EDA541C69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334E54EF-42F1-4D94-B8A0-C8EDA541C69D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D8F2193-E65B-44C2-9457-B9D3D82DE035} = {B414FE7F-C71C-487F-B470-0F937824DDA4}
+		{A8F1D053-798E-4DD4-8BBC-A6FEBCF26D03} = {CCFB9B2F-2A82-4D79-A39E-B52C6AD2F859}
+		{FACBB3EE-7247-4E1C-B587-AE96A5CD12AD} = {F791B98E-DBBC-4C46-AEC5-B5D722A088DC}
+		{334E54EF-42F1-4D94-B8A0-C8EDA541C69D} = {8250CEF2-1D6B-404A-8641-5BAFDE0F3527}
+	EndGlobalSection
+EndGlobal
